@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy - Hermes VPS Backup</title>
+</head>
+<body>
+  <main>
+    <h1>Privacy Policy</h1>
+    <p>Last updated: October 31, 2026</p>
+
+    <h2>1. About this application</h2>
+    <p>
+      Hermes VPS Backup is a privately operated, single-user
+      backup utility. It is not a public service and is not
+      offered to other users.
+    </p>
+
+    <h2>2. Information processed</h2>
+    <p>
+      The application processes information necessary to maintain
+      backups, including:
+    </p>
+    <ul>
+      <li>
+        Google OAuth authorization data used to access the
+        operator's Google Drive.
+      </li>
+      <li>
+        Backup files containing Hermes application configuration,
+        state, and other selected system data.
+      </li>
+      <li>
+        Operational information such as backup timestamps,
+        repository metadata, and job logs.
+      </li>
+    </ul>
+
+    <h2>3. How information is used</h2>
+    <p>
+      Restic encrypts backup repository contents before they
+      are transferred. Rclone transfers the encrypted repository
+      to the operator's private Google Drive using the Google
+      Drive API.
+    </p>
+    <p>
+      Google authorization data is used only to authenticate
+      requests and manage the application's backup files.
+      It is stored in protected configuration on the operator's
+      private server.
+    </p>
+
+    <h2>4. Sharing and third-party services</h2>
+    <p>
+      The application does not sell personal information,
+      display advertising, or provide backup data to unrelated
+      third parties.
+    </p>
+    <p>
+      Google Drive is used as the remote storage provider.
+      Google processes information associated with its services
+      under its own privacy policies.
+    </p>
+    <p>
+      The public informational website is hosted by GitHub Pages.
+      GitHub may process technical information associated with
+      website requests under its own privacy policy.
+    </p>
+
+    <h2>5. Security</h2>
+    <p>
+      Backup repository contents are encrypted by Restic before
+      upload. Access to the server, authorization credentials,
+      and encryption password is restricted to the operator.
+    </p>
+    <p>
+      The Restic encryption password is essential for restoring
+      backups. Losing it may make the backup data unrecoverable.
+    </p>
+
+    <h2>6. Retention and deletion</h2>
+    <p>
+      Backup retention is controlled by the operator's configured
+      backup schedule and retention policy. The operator can
+      remove backup data from the remote repository.
+    </p>
+
+    <h2>7. Website information</h2>
+    <p>
+      This informational website does not provide account
+      registration, contact forms, advertising, or analytics.
+      It does not host backup archives or Google authorization
+      credentials.
+    </p>
+
+    <h2>8. Changes to this policy</h2>
+    <p>
+      This policy may be updated if the backup system or its
+      data-handling practices change.
+    </p>
+
+    <h2>9. Contact</h2>
+    <p>
+      Questions about this application or this policy can be
+      submitted through the
+      <a href="https://github.com/MrLyle/hermes-vps-backup-info/issues">
+        GitHub repository
+      </a>.
+      Please do not include passwords, credentials, or other
+      sensitive information in public issues.
+    </p>
+
+    <h2>External privacy policies</h2>
+    <ul>
+      <li>
+        <a href="https://policies.google.com/privacy">
+          Google Privacy Policy
+        </a>
+      </li>
+      <li>
+        <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">
+          GitHub Privacy Statement
+        </a>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>
